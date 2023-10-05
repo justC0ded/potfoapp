@@ -1,16 +1,17 @@
-# This is a sample Python script.
+import streamlit as st
+st.set_page_config(layout="wide")
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+col1 , col2 = st.columns(2)
+with col1:
+    st.image("images/photo.png")
 
+with col2:
+    st.title("Prosper Ifeanyi")
+    content = """
+    afakljfdla;jf;ajfajf;lajfdja;djfa;jfa;jd;fja;jf;ajf;ajfa;f
+    alfj;ajk;dfja;kdjfa;js;fja;sfja;jf;ajs;lfja;fj;a
+    ;ajkfaj;sdfja;lalfa;dlskdfsdflsflsfslfjlslfjsljflssfsfksfls
+    slfskjflsjddlsjlfjsljflsjflsjdfjsljflsjflsjflsksjfllsfjlsls
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    """
+    st.info(content)
