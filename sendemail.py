@@ -3,7 +3,7 @@ def send_email(message,):
     host = "smtp.gmail.com"
     port = 465
 
-    password ="ejlr pmhw nphq kxld"
+    password =""
     username ="omekaraifeanyi94@gmail.com"
 
     receiver = "omekaraifeanyi94@gmail.com"
